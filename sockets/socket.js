@@ -5,10 +5,12 @@ const Band = require('../models/band');
 
 const bands = new Bands();
 
-bands.addBand( new Band( 'Breaking Benjamin' ) );
-bands.addBand( new Band( 'Bon Jovi' ) );
-bands.addBand( new Band( 'Héroes del Silencio' ) );
-bands.addBand( new Band( 'Metallica' ) );
+bands.addBand( new Band( 'JavaScript' ) );
+bands.addBand( new Band( 'Dart' ) );
+bands.addBand( new Band( 'Node js' ) );
+bands.addBand( new Band( 'PHP' ) );
+bands.addBand( new Band( 'TypeScript' ) );
+bands.addBand( new Band( 'React' ) );
 
 
 // Mensajes de Sockets
